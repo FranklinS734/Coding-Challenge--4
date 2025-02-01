@@ -92,3 +92,11 @@ const applyDiscount = function(price, discountPercentage) {
 // Applied on first sale
 let discountedPrice = applyDiscount(200, 15);
 console.log(`Discounted price: $${discountedPrice}`);
+
+// Task 10 - Loyalty Points
+// Arrow function to calculate points (1 point per $10 spent)
+const calculatePoints = purchaseAmount => Math.floor(purchaseAmount / 10);
+
+// 
+let points = calculatePoints(200); // sale one of 200
+console.log(`Loyalty points earned: ${points}`);
