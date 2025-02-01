@@ -72,3 +72,13 @@ let orders = [721, 722, 723];
 orders.forEach(order => {
     console.log(`Processing order ID: ${order}`);
 });
+
+// Task 8 - Tax Calculation
+// Function to calculate tax
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+
+// Showcase
+let tax = calculateTax(200, 0.06);
+console.log(`Tax amount: $${tax}`);
