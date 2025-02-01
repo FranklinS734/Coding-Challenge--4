@@ -20,7 +20,7 @@ for (let i = 0; i < sales.length; i++) {
 }
 console.log(`Total sales: $${totalSales}`);
 
-// Task 3 - Inventory Depletion
+// Task 3 - Financial Transactions
 // Starting stock value
 let stock = 10;
 
@@ -30,3 +30,14 @@ while (stock > 0) {
     stock--; // Decrease stock
 }
 console.log("Stock is empty");
+
+// Task 4 - Customer Messaging
+// Starting count of responses
+let responses = 0;
+
+// Do...while loop to simulate collecting responses
+do {
+    responses++;
+    console.log(`Thank you for completing response ${responses}!`);
+} while (responses < 3);
+console.log("Survey completed. We appreciate your feedback!");
